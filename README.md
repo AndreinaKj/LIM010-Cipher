@@ -29,7 +29,7 @@ Una vez realizado el prototipo en papel, solicité un feedback. Como resultado d
 
 ### Imagen del prototipo final en Balsamiq
 
-![enter image description here](https://picasaweb.google.com/101277479498178760499/6697294247680664705#6697294251641804146 "Pantalla 1")
-![enter image description here](https://picasaweb.google.com/101277479498178760499/6697294358920482049#6697294365534052338 "Pantalla 2")
-![enter image description here](https://picasaweb.google.com/101277479498178760499/6697294506449835393#6697294509923936066 "Pantalla 3")
-![enter image description here](https://picasaweb.google.com/101277479498178760499/6697294602040745153#6697294604271983698 "Pantalla 4")
+![enter image description here](https://lh3.googleusercontent.com/45ep_BL2bkYw9V_iTYgEdD6aDI9FV081NboG91qXOw104J1YnEKsZ0ObWb1kFeczRY2sy1xAi3ySIg "Pantalla 1")
+![enter image description here](https://lh3.googleusercontent.com/Jjwpni7xQS0W-FFLLHprj3xGFaszyh1C-6jiz_nGcPYiG46LtvbjlkJ1C-dJiZjJhPuTb7JXZ7XOVA "Pantalla 2")
+![enter image description here](https://lh3.googleusercontent.com/htfWCQvjoHrRhd_xmBtvW9ooWzSWuO8Mw4kuhmpNl5o0MT6vObpiAusxvmX0zmDE55s6KwH3c0vaTA "Pantalla 3")
+![enter image description here](https://lh3.googleusercontent.com/tStN4ET1IvnHZTOHMJ3C74DVe0HsjhLDeayyiSTj9nqxuylTsTTFRjyrFfpfJO59mzKzOnpHCzEJTg "Pantalla 4")
