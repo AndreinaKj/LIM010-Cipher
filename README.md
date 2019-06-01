@@ -11,7 +11,7 @@
  
  Cualquier usuario que desea codificar un mensaje para algún evento o comunicación puede hacer uso de **Hush-hush**
 
-## Solucioón de problemas/necesidades de usuarios
+## Solución de problemas/necesidades de usuarios
 
 ¿Alguna vez han leído tu conversación con tu mejor amiga y descubierto que no estabas estudiando sino en una fiesta? 
 ¿Te pasado que quieres escribirle un mensaje privado a tu enamorad@ pero tienes a tu mamá al costado? 
