@@ -1,4 +1,4 @@
-# Hush-hush!
+# Hush-hush
 
  ¿Alguna vez te han leído una conversación de WhatsApp o Messenger? **Hush-hush** es una aplicación web en la que podrás generar mensajes cifrados para ser compartidos solo con la persona que desees.  
 
