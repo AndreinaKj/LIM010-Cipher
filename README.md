@@ -11,7 +11,7 @@
  
  Cualquier usuario que desea codificar un mensaje para algún evento o comunicación puede hacer uso de **Hush-hush**
 
-## Explicar cómo el producto soluciona los problemas/necesidades de dichos usuarios.
+## Solucioón de problemas/necesidades de usuarios
 
 ¿Alguna vez han leído tu conversación con tu mejor amiga y descubierto que no estabas estudiando sino en una fiesta? 
 ¿Te pasado que quieres escribirle un mensaje privado a tu enamorad@ pero tienes a tu mamá al costado? 
@@ -21,11 +21,11 @@
 ## Prototipo - papel y lápiz
 ![enter image description here](https://lh3.googleusercontent.com/ElSdOv-uhfoWg6q4a5yoVVbRZ0HDvtlsW2q1Qzipfat1ybmAuuxN51gpAIkBpUnwYb8tz6fk9uwWvw "Hush-hush - Prototipo - Lápiz")
 
-## Agregar un resumen del feedback recibido indicando las mejoras a realizar.
+## Resumen del Feedback recibido 
 
 La cantidad de usuarios entrevistados para este proyecto fue de un total de cinco personas. 
 4/5 de las entrevistadas, indicaron que de existir la aplicación web, haría uso de la misma. 
-Una vez realizado el prototipo en papel, solicité un feedback. Como resultado de esta práctica, se modificaron algunos botones de manera de agregar mejor función y asimismo, fuese amigable. 
+Una vez realizado el prototipo en papel, solicité un feedback. Como resultado de ésta práctica, se modificaron algunos botones de manera de agregar mejor función y asimismo, fuese amigable. 
 
 ### Imagen del prototipo final en Balsamiq
 
