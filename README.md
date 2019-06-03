@@ -25,7 +25,7 @@
 
 La cantidad de usuarios entrevistados para este proyecto fue de un total de cinco personas. 
 4/5 de las entrevistadas, indicaron que de existir la aplicación web, haría uso de la misma. 
-Una vez realizado el prototipo en papel, solicité un feedback. Como resultado de ésta práctica, se modificaron algunos botones de manera de agregar mejor función y asimismo, fuese amigable. 
+Una vez realizado el prototipo en papel, solicité un feedback. Como resultado de ésta práctica, se modificaron ubicación de algunos dos botones y colocar la despedida al final del recuadro que entrega el texto cifrado de manera de agregar mejor función y asimismo, fuese amigable. 
 
 ### Imagen del prototipo final en Balsamiq
 
