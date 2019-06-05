@@ -4,12 +4,56 @@
     <meta charset="utf-8">
     <title>Caesar Cipher</title>
     <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:500&display=swap" rel="stylesheet">
   </head>
   <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
-    <script src="cipher.js"></script>
+    <header>
+      <img src="logo.hush.png" alt="logo">
+    </header>
+    <main>
+
+  <section class="seccion" id="login";>
+        <h1>Ingresa tu contraseña</h1>
+        <input type="password" id="password" placeholder="Contraseña" required>
+        <br>
+        <button type="submit" id="entrar" class= "button radius">Entrar</button>
+  </section>
+   
+  <section class="seccion hide" id="errorPage">
+    <h2>Has superado el número de intentos diarios</h2>
+    <h2>Por favor inténtalo en 24 horas</h2>
+  </section>
+
+  <section class="seccion hide" id="centralPage">
+    <h2>
+    ¡Estamos listos!
+    </h2>
+    <p class="centralText">Escribe aquí tu mensaje</p>
+    <input type="text" name="message" id="message" class="message" placeholder="Tu mensaje"> 
+    <br>
+    <p class="moves">Nro. de desplazamientos</p>
+    <input type="number" min="1" max="100" class="clave">
+      <button type="submit" class="button radius" id="cifrar">Cifrar</button>
+      <button type="submit" class="button radius" id="descifrar">Descifrar</button>
+  </section>
+
+
+  <section class="seccion hide" id="finalPage">
+        <p>Tu mensaje cifrado</p>
+        <input type=»text» id="finalMessage" readonly=»readonly» />
+        <br>
+        <button type="submit" class= "button radius">Copiar</button>
+        <button type="submit" class= "button radius">Inicio</button>
+
+        <h3>¡Gracias por utilizar hush hush!</h3>
+  </section>
+
+  <button class="hide" id="botoncito">Hola</button> 
+
+    </main>
+    <footer class=footer>
+      <p>Developed by InaK</p>
+    </footer>
     <script src="index.js"></script>
   </body>
 </html>

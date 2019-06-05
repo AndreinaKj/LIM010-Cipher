@@ -1,1 +1,93 @@
 /* Acá van tus reglas de estilo */
+body {
+    background-color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.button {
+background-color:#70cacc;
+margin: 20px;
+padding: 10px 25px;
+text-align: center;
+font-size: 15px;
+width: 200px;
+text-decoration: none;
+box-shadow: 0px 0px 0px #abf2f3;
+transition: color 0.3s, 0.3s;
+}
+
+.button.hover {
+    box-shadow: 0px 0px 0px;
+    padding: 7px;
+} 
+
+img {
+    width: 70%;
+    margin: auto;    
+    display: block;
+}
+
+#password {
+    width: 300px;
+    height: 50px;
+}
+
+#message {
+    width: 860px;
+    height: 150px;
+    margin: 0px 0px 0px 50px;
+}
+
+#finalMessage {
+    width: 700px;
+    height: 150px;
+}
+
+.show {
+    display: block !important;
+}
+
+.hide {
+    display: none !important;
+}
+
+.footer {
+    font-size: 10px;
+    text-align: center;
+    margin-top: 130px;
+}
+
+.clave
+{
+    font-size: 20px;
+}
+
+h1 {
+color: #b81f5c;
+text-align: center;
+}
+
+h2 {
+color: #b81f5c;
+text-align: center;
+}
+
+p {
+    color: #b81f5c;
+    text-align: center;
+    }
+
+.centralText {
+    display: inline;
+}
+
+.moves {
+    color: #b81f5c;
+    display: inline-block;
+    padding: 0px 0px 100px 0px;
+    margin: 0px 0px 200px 0px;
+}
+
+.seccion {
+    text-align: center;
+}
