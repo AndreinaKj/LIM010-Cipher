@@ -33,7 +33,7 @@ img {
 }
 
 #message {
-    width: 860px;
+    width: 700px;
     height: 150px;
     margin: 0px 0px 0px 50px;
 }
@@ -72,6 +72,11 @@ color: #b81f5c;
 text-align: center;
 }
 
+h3{
+color: #b81f5c;
+text-align: center;
+}
+
 p {
     color: #b81f5c;
     text-align: center;
@@ -79,6 +84,7 @@ p {
 
 .centralText {
     display: inline;
+    margin: 0px 0px 10px 50px;
 }
 
 .moves {

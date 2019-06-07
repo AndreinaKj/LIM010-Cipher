@@ -31,8 +31,9 @@
     <p class="centralText">Escribe aquí tu mensaje</p>
     <input type="text" name="message" id="message" class="message" placeholder="Tu mensaje"> 
     <br>
-    <p class="moves">Nro. de desplazamientos</p>
-    <input type="number" min="1" max="100" class="clave">
+    <p class="moves">Nro. de desplazamientos</p>  
+    <input type="number" min="1" max="100" class="clave" id="number">
+    
       <button type="submit" class="button radius" id="cifrar">Cifrar</button>
       <button type="submit" class="button radius" id="descifrar">Descifrar</button>
   </section>
@@ -40,20 +41,24 @@
 
   <section class="seccion hide" id="finalPage">
         <p>Tu mensaje cifrado</p>
-        <input type=»text» id="finalMessage" readonly=»readonly» />
+        <input type="text" id="finalMessage">
+        <!-- readonly=»readonly» -->
         <br>
-        <button type="submit" class= "button radius">Copiar</button>
-        <button type="submit" class= "button radius">Inicio</button>
+        <button type="submit" class= "button radius" id="copy">Copiar</button>
+        <button type="submit" class= "button radius" id="inicio">Inicio</button>
 
         <h3>¡Gracias por utilizar hush hush!</h3>
   </section>
 
-  <button class="hide" id="botoncito">Hola</button> 
+  <section class= "passwError hide" id="passwError">
+    <p>Clave incorrecta</p>
+  </section>
 
     </main>
     <footer class=footer>
       <p>Developed by InaK</p>
     </footer>
     <script src="index.js"></script>
+    <script src="cipher.js"></script>
   </body>
 </html>
