@@ -12,17 +12,23 @@
     </header>
     <main>
 
+<!-- PANTALLA LO LOGIN - INGRESAR CLAVE -->
+
   <section class="seccion" id="login";>
         <h1>Ingresa tu contraseña</h1>
-        <input type="password" id="password" placeholder="Contraseña" required>
+        <input type="password" id="password" class="paswd" placeholder=" 👄 Contraseña 🤫" required>
         <br>
         <button type="submit" id="entrar" class= "button radius">Entrar</button>
   </section>
    
+<!-- PANTALLA DE ERROR DESPUES DE HABER INTENTADO MAS DE 3 VECES -->
+
   <section class="seccion hide" id="errorPage">
     <h2>Has superado el número de intentos diarios</h2>
     <h2>Por favor inténtalo en 24 horas</h2>
   </section>
+
+<!-- PANTALLA PARA INGRESAR EL MENSAJE A CIFRAR / DESCIFRAR -->
 
   <section class="seccion hide" id="centralPage">
     <h2>
@@ -33,22 +39,36 @@
     <br>
     <p class="moves">Nro. de desplazamientos</p>  
     <input type="number" min="1" max="100" class="clave" id="number">
-    
+    <br>
       <button type="submit" class="button radius" id="cifrar">Cifrar</button>
       <button type="submit" class="button radius" id="descifrar">Descifrar</button>
   </section>
 
-
+<!-- PANTALLA FINAL - ENTREGA EL MENSAJE CIFRADO  -->
   <section class="seccion hide" id="finalPage">
         <p>Tu mensaje cifrado</p>
-        <input type="text" id="finalMessage">
-        <!-- readonly=»readonly» -->
+        <input type="text" id="finalMessage" class="finalMessage" readonly=»readonly» >
+        
         <br>
         <button type="submit" class= "button radius" id="copy">Copiar</button>
         <button type="submit" class= "button radius" id="inicio">Inicio</button>
 
         <h3>¡Gracias por utilizar hush hush!</h3>
   </section>
+
+<!-- PANTALLA FINAL - ENTREGA EL MENSAJE DESCIFRADO -->
+<section class="seccion hide" id="lastPage">
+  <p>Tu mensaje descifrado</p>
+  <input type="text" id="lastMessage" class="lastMessage" readonly=»readonly» >
+  
+  <br>
+  <button type="submit" class= "button radius" id="copy2">Copiar</button>
+  <button type="submit" class= "button radius" id="inicio2">Inicio</button>
+
+  <h3>¡Gracias por utilizar hush hush!</h3>
+</section>
+
+<!-- PANTALLA DE ERROR - CLAVE INCORRECTA -->
 
   <section class= "passwError hide" id="passwError">
     <p>Clave incorrecta</p>

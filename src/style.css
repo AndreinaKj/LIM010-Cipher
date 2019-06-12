@@ -1,28 +1,39 @@
 /* Acá van tus reglas de estilo */
 body {
-    background-color: white;
+    background-color: #f3fcfc;
     font-family: 'Montserrat', sans-serif;
 }
 
 .button {
-background-color:#70cacc;
-margin: 20px;
-padding: 10px 25px;
-text-align: center;
-font-size: 15px;
-width: 200px;
-text-decoration: none;
-box-shadow: 0px 0px 0px #abf2f3;
-transition: color 0.3s, 0.3s;
+    -webkit-transition: 0.2s;
+    transition: 0.2;
+    padding: 13px 60px;
+    border: 2px solid #79b3b3; 
+    color:white;
+    font-size: 15px;
+    letter-spacing: 1px;
+    background: #79b3b3;
+    margin: 10px 35px 20px 40px;
 }
-
-.button.hover {
-    box-shadow: 0px 0px 0px;
-    padding: 7px;
+    
+.button:hover {
+    color: white;
+    font-weight: 400;
+    background-color: #90c9cb;
+    padding: 13px 60px;
+    border: 2px #90c9cb;
 } 
 
+.button:focus{
+    outline: none;
+}
+
+.button:focus{
+    outline: none;
+}
+
 img {
-    width: 70%;
+    width: 60%;
     margin: auto;    
     display: block;
 }
@@ -36,6 +47,11 @@ img {
     width: 700px;
     height: 150px;
     margin: 0px 0px 0px 50px;
+}
+
+.lastMessage {
+    width: 700px;
+    height: 150px;
 }
 
 #finalMessage {
@@ -91,9 +107,19 @@ p {
     color: #b81f5c;
     display: inline-block;
     padding: 0px 0px 100px 0px;
-    margin: 0px 0px 200px 0px;
+    margin: 20px 30px 0px 0px;
 }
 
 .seccion {
     text-align: center;
+}
+
+.paswd {
+    text-align: center;
+    font-size: 15px;
+}
+
+.lastMessage {
+    width: 700px;
+    height: 150px;
 }

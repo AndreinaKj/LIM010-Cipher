@@ -9,6 +9,12 @@ const passwError = document.getElementById("passwError");
 const number = document.getElementById("number");
 const message = document.getElementById("message");
 const inicio = document.getElementById("inicio");
+const copiar = document.getElementById("copy");
+const finalMessage = document.getElementById("finalMessage");
+const lastPage = document.getElementById("lastPage");
+const lastMessage = document.getElementById("lastMessage");
+const copy2 = document.getElementById("copy2");
+const inicio2 = document.getElementById("inicio2");
 
 //Definir variable para realizar función 
 const passwordTrue = "LABORATORIA";
@@ -39,6 +45,7 @@ const password = document.getElementById("password");
  const botonEntrar = document.getElementById("entrar");
 botonEntrar.addEventListener("click", validar);
 
+
 //Agregar funcionalidad al boton cifrar. Enlace a la página final.
 cifrar.addEventListener("click", () => {
     centralPage.classList.add("hide");
@@ -48,23 +55,48 @@ cifrar.addEventListener("click", () => {
 //Agregar funcionalidad al boton descifrar. Enlace a la página final.
 descifrar.addEventListener("click", () => {
     centralPage.classList.add("hide");
-    finalPage.classList.replace("hide", "show" );
+    lastPage.classList.replace("hide", "show" );
 })
 
-//Agregar funcionalidad al boton inicio. Enlace a la página final.
+//Agregar funcionalidad al boton inicio. Enlace a la página central. (CIFRAR)
 inicio.addEventListener("click", () => {
     finalPage.classList.add("hide");
+    message.value = "";
+    number.value = "";
     centralPage.classList.replace("hide", "show" );
 })
 
-//Crear evento para que sea mostrado el resultado al momento de hacer click en el botón. 
+//Agregar funcionalidad al boton inicio. Enlace a la página central. (DESCIFRAR)
+inicio2.addEventListener("click", () => {
+    lastPage.classList.add("hide");
+    message.value = "";
+    number.value = "";
+    centralPage.classList.replace("hide", "show" );
+})
+
+//Evento - click al botón cifrado 
 cifrar.addEventListener("click", () => {
     const mensaje2 = window.cipher.encode(number.value,message.value);
     finalMessage.value = mensaje2;
 }); 
 
-//Copiar en portapapeles los datos contenidos en el input de resultado de cifrado
+//Evento - click al botón descifrado 
+descifrar.addEventListener("click", () =>{
+    const mensaje3 = window.cipher.decode(number.value,message.value)
+    lastMessage.value = mensaje3;
+})
 
+//Copiar en portapapeles los datos contenidos en el input de resultado de cifrado
+copiar.addEventListener("click", () => {
+    finalMessage.select();
+    document.execCommand("copy");
+});
+
+//Copiar en portapapeles los datos contenidos en el input de resultado de descifrado
+copy2.addEventListener("click", () => {
+    lastMessage.select();
+    document.execCommand("copy");
+});
 
 
 
