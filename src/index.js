@@ -1,18 +1,18 @@
 //Definir variables y llamar el id de los sections
 const login = document.getElementById("login");
-const centralPage = document.getElementById("centralPage");
-const finalPage = document.getElementById("finalPage");
-const errorPage = document.getElementById("errorPage");
+const centralPage = document.getElementById("central-page");
+const finalPage = document.getElementById("final-page");
+const errorPage = document.getElementById("error-page");
 const cifrar = document.getElementById("cifrar");
 const descifrar = document.getElementById("descifrar");
-const passwError = document.getElementById("passwError");
+const passwError = document.getElementById("passw-error");
 const number = document.getElementById("number");
 const message = document.getElementById("message");
 const inicio = document.getElementById("inicio");
 const copiar = document.getElementById("copy");
-const finalMessage = document.getElementById("finalMessage");
-const lastPage = document.getElementById("lastPage");
-const lastMessage = document.getElementById("lastMessage");
+const finalMessage = document.getElementById("final-message");
+const lastPage = document.getElementById("last-page");
+const lastMessage = document.getElementById("last-message");
 const copy2 = document.getElementById("copy2");
 const inicio2 = document.getElementById("inicio2");
 

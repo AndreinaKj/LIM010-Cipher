@@ -1,14 +1,78 @@
 /* Acá van tus reglas de estilo */
 body {
-    background-color: #f3fcfc;
+    background-image: url("mujer.png"); 
+    background-size: 70%;
     font-family: 'Montserrat', sans-serif;
 }
 
+.message {
+    margin: 0px 0px 0px 50px;
+}
+
+.footer {
+    font-size: 10px;
+    text-align: center;
+    margin-top: 130px;
+}
+
+.clave
+{
+    font-size: 20px;
+}
+
+h1, h2, h3 {
+color: #b81f5c;
+text-align: center;
+}
+
+p {
+    color: #b81f5c;
+    text-align: center;
+    }
+
+.central-text {
+    display: inline;
+    margin: 0px 0px 10px 50px;
+}
+
+.moves {
+    color: #b81f5c;
+    display: inline-block;
+    padding: 0px 0px 100px 0px;
+    margin: 20px 30px 0px 0px;
+}
+
+.seccion {
+    text-align: center;
+}
+
+.paswd {
+    width: 300px;
+    height: 50px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.show {
+    display: block !important;
+}
+
+.text {
+    width: 700px;
+    height: 150px;
+}
+
+.hide {
+    display: none !important;
+}
+
+/*
 .button {
     -webkit-transition: 0.2s;
     transition: 0.2;
     padding: 13px 60px;
     border: 2px solid #79b3b3; 
+    border-radius: 30px;
     color:white;
     font-size: 15px;
     letter-spacing: 1px;
@@ -28,98 +92,10 @@ body {
     outline: none;
 }
 
-.button:focus{
-    outline: none;
-}
-
 img {
     width: 60%;
     margin: auto;    
     display: block;
 }
 
-#password {
-    width: 300px;
-    height: 50px;
-}
-
-#message {
-    width: 700px;
-    height: 150px;
-    margin: 0px 0px 0px 50px;
-}
-
-.lastMessage {
-    width: 700px;
-    height: 150px;
-}
-
-#finalMessage {
-    width: 700px;
-    height: 150px;
-}
-
-.show {
-    display: block !important;
-}
-
-.hide {
-    display: none !important;
-}
-
-.footer {
-    font-size: 10px;
-    text-align: center;
-    margin-top: 130px;
-}
-
-.clave
-{
-    font-size: 20px;
-}
-
-h1 {
-color: #b81f5c;
-text-align: center;
-}
-
-h2 {
-color: #b81f5c;
-text-align: center;
-}
-
-h3{
-color: #b81f5c;
-text-align: center;
-}
-
-p {
-    color: #b81f5c;
-    text-align: center;
-    }
-
-.centralText {
-    display: inline;
-    margin: 0px 0px 10px 50px;
-}
-
-.moves {
-    color: #b81f5c;
-    display: inline-block;
-    padding: 0px 0px 100px 0px;
-    margin: 20px 30px 0px 0px;
-}
-
-.seccion {
-    text-align: center;
-}
-
-.paswd {
-    text-align: center;
-    font-size: 15px;
-}
-
-.lastMessage {
-    width: 700px;
-    height: 150px;
-}
+*/ 

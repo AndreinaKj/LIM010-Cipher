@@ -3,75 +3,77 @@
   <head>
     <meta charset="utf-8">
     <title>Caesar Cipher</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css" />
     <link href="https://fonts.googleapis.com/css?family=Montserrat:500&display=swap" rel="stylesheet">
   </head>
   <body>
     <header>
-      <img src="logo.hush.png" alt="logo">
     </header>
-    <main>
+  <main>
 
 <!-- PANTALLA LO LOGIN - INGRESAR CLAVE -->
-
   <section class ="seccion" id ="login">
-        <h1>Ingresa tu contraseña</h1>
-        <input type="password" id="password" class="paswd" placeholder=" 👄 Contraseña 🤫" required>
-        <br>
-        <button type="submit" id="entrar" class= "button radius">Entrar</button>
+    <h1>Ingresa tu contraseña</h1>
+    <input type="password" id="password" class="paswd" placeholder=" 👄 Contraseña 🤫" required>
+    <br>
+    <button type="button" id="entrar" class="btn btn-outline-primary button radius">Entrar</button>
   </section>
    
 <!-- PANTALLA DE ERROR DESPUES DE HABER INTENTADO MAS DE 3 VECES -->
-
-  <section class="seccion hide" id="errorPage">
+  <section class="seccion hide" id="error-page">
     <h2>Has superado el número de intentos diarios</h2>
     <h2>Por favor inténtalo en 24 horas</h2>
   </section>
 
 <!-- PANTALLA PARA INGRESAR EL MENSAJE A CIFRAR / DESCIFRAR -->
-
-  <section class="seccion hide" id="centralPage">
+  <section class="seccion hide" id="central-page">
     <h2>
     ¡Estamos listos!
     </h2>
-    <p class="centralText">Escribe aquí tu mensaje</p>
-    <input type="text" name="message" id="message" class="message" placeholder="Tu mensaje"> 
+    <p class="central-text">Escribe aquí tu mensaje</p>
+    <input type="text" name="message" id="message" class="text message" placeholder="Tu mensaje">
     <br>
     <p class="moves">Nro. de desplazamientos</p>  
     <input type="number" min="1" max="100" class="clave" id="number">
     <br>
-      <button type="submit" class="button radius" id="cifrar">Cifrar</button>
-      <button type="submit" class="button radius" id="descifrar">Descifrar</button>
+      <button type="button" class="btn btn-outline-primary button radius" id="cifrar">Cifrar</button>
+      <button type="button" class="btn btn-outline-primary button radius" id="descifrar">Descrifrar</button>
   </section>
 
 <!-- PANTALLA FINAL - ENTREGA EL MENSAJE CIFRADO  -->
-  <section class="seccion hide" id="finalPage">
-        <p>Tu mensaje cifrado</p>
-        <input type="text" id="finalMessage" class="finalMessage" readonly="readonly" >
-        <br>
-        <button type="submit" class= "button radius" id="copy">Copiar</button>
-        <button type="submit" class= "button radius" id="inicio">Inicio</button>
-        <h3>¡Gracias por utilizar hush hush!</h3>
+  <section class="seccion hide" id="final-page">
+    <p>Tu mensaje cifrado</p>
+    <input type="text" id="final-message" class="text final-message" readonly="readonly" >
+    <br>
+    <button type="button" class="btn btn-outline-primary button radius" id="copy">Copiar</button>
+    <button type="button" class="btn btn-outline-secondary button radius" id="inicio">Inicio</button>
+    <h3>¡Gracias por utilizar hush hush!</h3>
   </section>
 
 <!-- PANTALLA FINAL - ENTREGA EL MENSAJE DESCIFRADO -->
-<section class="seccion hide" id="lastPage">
-  <p>Tu mensaje descifrado</p>
-  <input type="text" id="lastMessage" class="lastMessage" readonly="readonly" >
-  <br>
-  <button type="submit" class= "button radius" id="copy2">Copiar</button>
-  <button type="submit" class= "button radius" id="inicio2">Inicio</button>
-  <h3>¡Gracias por utilizar hush hush!</h3>
-</section>
-<!-- PANTALLA DE ERROR - CLAVE INCORRECTA -->
-  <section class= "passwError hide" id="passwError">
-    <p>Clave incorrecta</p>
+  <section class="seccion hide" id="last-page">
+    <p>Tu mensaje descifrado</p>
+    <input type="text" id="last-message" class="text last-message" readonly="readonly" >
+    <br>
+    <button type="button" class="btn btn-outline-primary button radius" id="copy">Copiar</button>
+    <button type="button" class="btn btn-outline-secondary button radius" id="inicio">Inicio</button>
+    <h3>¡Gracias por utilizar hush hush!</h3>
   </section>
-    </main>
+
+<!-- PANTALLA DE ERROR - CLAVE INCORRECTA -->
+  <section class= "passw-error hide" id="passw-error">
+      <p>Clave incorrecta</p>
+  </section>
+
+  </main>
     <footer class="footer">
       <p>Developed by InaK</p>
     </footer>
     <script src="index.js"></script>
     <script src="cipher.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
   </body>
 </html>
